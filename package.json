@@ -97,6 +97,7 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-alignment": "^18.0.0",
-    "@ckeditor/ckeditor5-autosave": "^18.0.0"
+    "@ckeditor/ckeditor5-autosave": "^18.0.0",
+    "@ckeditor/ckeditor5-highlight": "^18.0.0"
   }
 }
