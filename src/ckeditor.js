@@ -33,6 +33,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -64,7 +65,8 @@ ClassicEditor.builtinPlugins = [
 	TextTransformation,
 	Autosave,
 	Alignment,
-	Highlight
+	Highlight,
+	WordCount
 
 ];
 
@@ -133,6 +135,7 @@ ClassicEditor.defaultConfig = {
 				type: 'marker'
 			}
 		]
+
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
